@@ -1,4 +1,4 @@
-fileFolder = fullfile(pwd, '08');
+fileFolder = fullfile(pwd, 'MRI data');
 files = dir(fullfile(fileFolder, '*dcm'));
 fileNames = {files.name};
 
